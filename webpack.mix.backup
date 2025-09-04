@@ -1,0 +1,55 @@
+// const mix = require('laravel-mix');
+// const tailwindcss = require('tailwindcss');
+// const path = require('path');
+
+// mix.setPublicPath(path.normalize('dist'));
+// mix.setResourceRoot(path.normalize('src'));
+// mix.setResourceRoot('./../');
+
+// if (mix.inProduction()) {
+//   mix.options({
+//     terser: {
+//       terserOptions: {
+//         compress: {
+//           drop_console: true,
+//         },
+//       },
+//     },
+//     // postCss: [require("autoprefixer")],
+//     cssNano: {
+//       discardComments: { removeAll: true },
+//     },
+//   });
+// } else {
+//   mix.webpackConfig({ devtool: 'inline-source-map' }).sourceMaps();
+// }
+
+// mix.webpackConfig({
+//   module: {
+//     rules: [
+//       {
+//         test: /\.scss$/,
+//         loader: 'import-glob-loader',
+//       },
+//     ],
+//   },
+
+//   watchOptions: {
+//     ignored: /node_modules/,
+//   },
+// });
+
+// mix
+//   .sass('src/sass/main.scss', 'dist/css')
+//   .options({
+//     postCss: [tailwindcss('./tailwind.config.js')],
+//   })
+//   .version();
+
+// mix.babel(['src/js/app.js'], 'dist/js/app.js');
+// //  'src/js/vendor/*.js',
+// //  'src/js/vendor/**/*.js',
+// //  'src/js/search-filter/filter.js',
+// //  'resources/acf-blocks/**/*.js',
+
+// // mix.babel(['src/js/elementor-widgets.js'], 'dist/js/widgets.js');

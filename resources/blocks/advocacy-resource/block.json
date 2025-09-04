@@ -1,0 +1,24 @@
+{
+    "name": "acf/advocacy-resource",
+    "title": "Advocacy Resource Blocks",
+    "description": "Custom Advocacy Resource Blocks",
+    "attributes": {
+      "align": {
+        "type": "string",
+        "default": "full"
+      }
+    },
+    "style": "block",
+    "script": "block",
+    "category": "home",
+    "icon": "",
+    "keywords": [
+      "advocacy-resource",
+      "advocacy",
+      "resource"
+    ],
+    "acf": {
+      "mode": "preview",
+      "renderTemplate": "block.php"
+    }
+  }

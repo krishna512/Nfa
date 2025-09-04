@@ -1,0 +1,25 @@
+{
+    "name": "acf/partnership-content",
+    "title": "Partnership Content Blocks",
+    "description": "Partnership Content Blocks",
+    "attributes": {
+      "align": {
+        "type": "string",
+        "default": "full"
+      }
+    },
+    "style": "block",
+    "script": "block",
+    "category": "home",
+    "icon": "",
+    "keywords": [
+      "partnership-content",
+      "partnership",
+      "content"
+      
+    ],
+    "acf": {
+      "mode": "preview",
+      "renderTemplate": "block.php"
+    }
+  }

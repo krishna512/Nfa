@@ -1,0 +1,25 @@
+{
+    "name": "acf/advocacy-seap",
+    "title": "Advocacy Seap Blocks",
+    "description": "Advocacy Seap Blocks",
+    "attributes": {
+      "align": {
+        "type": "string",
+        "default": "full"
+      }
+    },
+    "style": "block",
+    "script": "block",
+    "category": "home",
+    "icon": "",
+    "keywords": [
+      "advocacy-seap",
+      "advocacy",
+      "seap"
+      
+    ],
+    "acf": {
+      "mode": "preview",
+      "renderTemplate": "block.php"
+    }
+  }

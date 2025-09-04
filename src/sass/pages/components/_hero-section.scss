@@ -1,0 +1,45 @@
+.hero__banner {
+  // .hero__banner--image {
+  //   &::after {
+  //     content: '';
+  //     position: absolute;
+  //     background: url(@/icons/hero-mask.svg) no-repeat;
+  //     right: 0;
+  //     bottom: 0;
+  //     background-size: 100%;
+  //     width: 476px;
+  //     height: 552px;
+  //     background-position: right -120px bottom -18px;
+  //     mix-blend-mode: overlay;
+  //   }
+  // }
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 10;
+    // background: linear-gradient(
+    //   90deg,
+    //   #323232 3.52%,
+    //   rgba(50, 50, 50, 0.85) 40.72%,
+    //   rgba(50, 50, 50, 0.38) 50.31%,
+    //   rgba(50, 50, 50, 0.04) 75.98%
+    // );
+    background: linear-gradient(
+      90deg,
+      #323232ed 3.52%,
+      rgb(50 50 50 / 51%) 40.72%,
+      rgb(50 50 50 / 38%) 50.31%,
+      rgba(50, 50, 50, 0.04) 75.98%
+    );
+  }
+}
+
+//Hero Mask
+
+// .hero-mask svg {
+//   height: inherit;
+// }

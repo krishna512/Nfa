@@ -1,0 +1,25 @@
+{
+    "name": "acf/home-resources",
+    "title": "Home Resources",
+    "description": "Custom Home Resources Blocks",
+    "attributes": {
+      "align": {
+        "type": "string",
+        "default": "full"
+      }
+    },
+    "style": "block",
+    "script": "block",
+    "category": "home",
+    "icon": "",
+    "keywords": [
+      "home-resources",
+      "home",
+      "resources"
+      
+    ],
+    "acf": {
+      "mode": "preview",
+      "renderTemplate": "block.php"
+    }
+  }

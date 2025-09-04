@@ -1,0 +1,25 @@
+{
+    "name": "acf/content-only",
+    "title": "only Content Blocks",
+    "description": "Custom Only Content Blocks",
+    "attributes": {
+      "align": {
+        "type": "string",
+        "default": "full"
+      }
+    },
+    "style": "block",
+    "script": "block",
+    "category": "home",
+    "icon": "",
+    "keywords": [
+      "content-only",
+      "content",
+      "only"
+      
+    ],
+    "acf": {
+      "mode": "preview",
+      "renderTemplate": "block.php"
+    }
+  }

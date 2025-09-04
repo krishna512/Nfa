@@ -1,0 +1,25 @@
+{
+    "name": "acf/knowledge-seap",
+    "title": "Knowledge Seap Blocks",
+    "description": "Knowledge Seap Blocks",
+    "attributes": {
+      "align": {
+        "type": "string",
+        "default": "full"
+      }
+    },
+    "style": "block",
+    "script": "block",
+    "category": "home",
+    "icon": "",
+    "keywords": [
+      "knowledge-seap",
+      "knowledge",
+      "seap"
+      
+    ],
+    "acf": {
+      "mode": "preview",
+      "renderTemplate": "block.php"
+    }
+  }

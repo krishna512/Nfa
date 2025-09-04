@@ -1,0 +1,25 @@
+{
+    "name": "acf/icon-with-content",
+    "title": "Icon With Content Blocks",
+    "description": "Custom Icon With Content Blocks",
+    "attributes": {
+      "align": {
+        "type": "string",
+        "default": "full"
+      }
+    },
+    "style": "block",
+    "script": "block",
+    "category": "home",
+    "icon": "",
+    "keywords": [
+      "icon-with-content",
+      "icon",
+      "with",
+      "content"
+    ],
+    "acf": {
+      "mode": "preview",
+      "renderTemplate": "block.php"
+    }
+  }

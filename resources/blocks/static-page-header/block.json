@@ -1,0 +1,26 @@
+{
+    "name": "acf/static-page-header",
+    "title": "Static Page Header Block",
+    "description": "Custom Static Page Header Block Blocks",
+    "attributes": {
+      "align": {
+        "type": "string",
+        "default": "full"
+      }
+    },
+    "style": "block",
+    "script": "block",
+    "category": "home",
+    "icon": "",
+    "keywords": [
+      "static-page-header",
+      "static",
+      "page",
+      "header"
+      
+    ],
+    "acf": {
+      "mode": "preview",
+      "renderTemplate": "block.php"
+    }
+  }

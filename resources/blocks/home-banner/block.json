@@ -1,0 +1,25 @@
+{
+    "name": "acf/home-banner",
+    "title": "Hero Banner",
+    "description": "Custom Hero Banner Blocks",
+    "attributes": {
+      "align": {
+        "type": "string",
+        "default": "full"
+      }
+    },
+    "style": "block",
+    "script": "block",
+    "category": "home",
+    "icon": "",
+    "keywords": [
+      "home-banner",
+      "home",
+      "banner"
+      
+    ],
+    "acf": {
+      "mode": "preview",
+      "renderTemplate": "block.php"
+    }
+  }

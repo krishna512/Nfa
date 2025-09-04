@@ -1,0 +1,23 @@
+{
+    "name": "acf/contact-map",
+    "title": "Contact Map Blocks",
+    "description": "Custom Contact Map Blocks",
+    "attributes": {
+      "align": {
+        "type": "string",
+        "default": "full"
+      }
+    },
+    "style": "block",
+    "script": "block",
+    "category": "home",
+    "icon": "",
+    "keywords": [
+      "contact-map",
+    "contact",
+  "map"  ],
+    "acf": {
+      "mode": "preview",
+      "renderTemplate": "block.php"
+    }
+  }

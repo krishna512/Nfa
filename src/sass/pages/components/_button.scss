@@ -1,0 +1,40 @@
+// .button {
+//   @apply text-base font-medium py-3 px-8;
+// }
+// .primary-button,
+// .secondary-button {
+//   @apply inline-flex items-center gap-[10px] relative overflow-hidden;
+// }
+
+// .hero-button {
+//   border-radius: 8px;
+//   border: 2px solid #fff9ec;
+
+//   &:after {
+//     content: '';
+//     position: absolute;
+//     background: url('@/icons/wave-hover.svg') no-repeat;
+//     width: 262px;
+//     height: 83px;
+//     left: -7px;
+//     transition: 0.4s linear;
+//     top: 100%;
+//     transform: translateY(0%);
+//     z-index: -5;
+//   }
+//   &:hover {
+//     transition: 0.4s linear;
+//     color: var(--primary-black);
+//     border: 2px solid var(--y-200);
+
+//     &:after {
+//       transform: translateY(-100%);
+//       transition: 0.4s linear;
+//     }
+//   }
+// }
+
+.wave svg {
+  width: inherit;
+  height: inherit;
+}

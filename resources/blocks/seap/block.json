@@ -1,0 +1,21 @@
+{
+    "name": "acf/seap",
+    "title": "Seap Blocks",
+    "description": "Custom Seap Blocks",
+    "attributes": {
+      "align": {
+        "type": "string",
+        "default": "full"
+      }
+    },
+    "style": "block",
+    "script": "block",
+    "category": "home",
+    "icon": "",
+    "keywords": [
+      "seap"  ],
+    "acf": {
+      "mode": "preview",
+      "renderTemplate": "block.php"
+    }
+  }

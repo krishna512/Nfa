@@ -1,0 +1,24 @@
+{
+    "name": "acf/home-latest-update",
+    "title": "Home Latest Blogs",
+    "description": "Custom Home Latest Blogs Blocks",
+    "attributes": {
+      "align": {
+        "type": "string",
+        "default": "full"
+      }
+    },
+    "style": "block",
+    "script": "block",
+    "category": "home",
+    "icon": "",
+    "keywords": [
+      "home-latest-update",
+      "latest",
+      "update"
+    ],
+    "acf": {
+      "mode": "preview",
+      "renderTemplate": "block.php"
+    }
+  }

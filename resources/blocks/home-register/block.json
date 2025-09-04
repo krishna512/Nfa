@@ -1,0 +1,24 @@
+{
+    "name": "acf/home-register",
+    "title": "Home Featured Events",
+    "description": "Custom Home Featured Events Blocks",
+    "attributes": {
+      "align": {
+        "type": "string",
+        "default": "full"
+      }
+    },
+    "style": "block",
+    "script": "block",
+    "category": "home",
+    "icon": "",
+    "keywords": [
+      "home-register",
+      "home",
+      "register"
+    ],
+    "acf": {
+      "mode": "preview",
+      "renderTemplate": "block.php"
+    }
+  }

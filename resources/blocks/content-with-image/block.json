@@ -1,0 +1,25 @@
+{
+    "name": "acf/content-with-image",
+    "title": "Content With Image Blocks",
+    "description": "Custom Content With Image Blocks",
+    "attributes": {
+      "align": {
+        "type": "string",
+        "default": "full"
+      }
+    },
+    "style": "block",
+    "script": "block",
+    "category": "home",
+    "icon": "",
+    "keywords": [
+      "content-with-image",
+      "content",
+      "with",
+      "image"
+    ],
+    "acf": {
+      "mode": "preview",
+      "renderTemplate": "block.php"
+    }
+  }

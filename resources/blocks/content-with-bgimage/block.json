@@ -1,0 +1,25 @@
+{
+    "name": "acf/content-with-bgimage",
+    "title": "Content With Background Image Blocks",
+    "description": "Custom Content With Background Image Blocks",
+    "attributes": {
+      "align": {
+        "type": "string",
+        "default": "full"
+      }
+    },
+    "style": "block",
+    "script": "block",
+    "category": "home",
+    "icon": "",
+    "keywords": [
+      "content-with-bgimage",
+      "content",
+      "with",
+      "bgimage"
+    ],
+    "acf": {
+      "mode": "preview",
+      "renderTemplate": "block.php"
+    }
+  }

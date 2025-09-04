@@ -1,0 +1,25 @@
+{
+    "name": "acf/home-donation",
+    "title": "Home Donation",
+    "description": "Custom Home Donation Blocks",
+    "attributes": {
+      "align": {
+        "type": "string",
+        "default": "full"
+      }
+    },
+    "style": "block",
+    "script": "block",
+    "category": "home",
+    "icon": "",
+    "keywords": [
+      "home-donation",
+      "home",
+      "donation"
+      
+    ],
+    "acf": {
+      "mode": "preview",
+      "renderTemplate": "block.php"
+    }
+  }

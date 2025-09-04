@@ -1,0 +1,33 @@
+{
+    "name": "acf/partnership-content-repeater",
+    "title": "Partnership Content Repeater Blocks",
+    "description": "Partnership Content Repeater Blocks",
+    "attributes": {
+      "align": {
+        "type": "string",
+        "default": "none"
+      }
+    },
+    "supports": {
+    "align": ["none"],
+    "anchor": false,
+    "className": true,
+    "mode": false
+  },
+    
+    "style": "block",
+    "script": "block",
+    "category": "home",
+    "icon": "",
+    "keywords": [
+      "partnership-content-repeater",
+      "partnership",
+      "content",
+      "repeater"
+      
+    ],
+    "acf": {
+      "mode": "preview",
+      "renderTemplate": "block.php"
+    }
+  }

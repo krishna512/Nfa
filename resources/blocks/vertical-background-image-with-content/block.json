@@ -1,0 +1,27 @@
+{
+    "name": "acf/vertical-background-image-with-content",
+    "title": "Vertical Background image with content Blocks",
+    "description": "Custom Vertical Background image with content Blocks",
+    "attributes": {
+      "align": {
+        "type": "string",
+        "default": "full"
+      }
+    },
+    "style": "block",
+    "script": "block",
+    "category": "home",
+    "icon": "",
+    "keywords": [
+      "vertical-background-image-with-content",
+      "vertical",
+      "background",
+      "image",
+      "with",
+      "content"
+    ],
+    "acf": {
+      "mode": "preview",
+      "renderTemplate": "block.php"
+    }
+  }

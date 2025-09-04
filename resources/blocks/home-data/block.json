@@ -1,0 +1,24 @@
+{
+    "name": "acf/home-data",
+    "title": "Home SEAP",
+    "description": "Custom Home SEAP Blocks",
+    "attributes": {
+      "align": {
+        "type": "string",
+        "default": "full"
+      }
+    },
+    "style": "block",
+    "script": "block",
+    "category": "home",
+    "icon": "",
+    "keywords": [
+      "home-data",
+      "home",
+      "data"
+    ],
+    "acf": {
+      "mode": "preview",
+      "renderTemplate": "block.php"
+    }
+  }

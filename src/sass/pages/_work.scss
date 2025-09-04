@@ -1,0 +1,180 @@
+.work-menu {
+  .menu-item {
+    transition: all 0.2s ease-in-out;
+
+    // .partner.icon {
+    //   circle {
+    //     fill: var(--n-50);
+    //   }
+    //   path {
+    //     fill: var(--primary-black);
+    //   }
+    // }
+
+    .menu-link {
+      @apply inline-flex py-3 pl-[72px] sm:pr-8  pr-6 sm:py-4  sm:pl-20;
+    }
+
+    &-141 .menu-link {
+      background: url(@/knowledge-building.svg) no-repeat 33px center;
+    }
+
+    &-142 .menu-link {
+      background: url(@/partner-building.svg) no-repeat 33px center;
+    }
+
+    &-145 .menu-link {
+      background: url(@/coalition-building.svg) no-repeat 33px center;
+    }
+
+    &-144 .menu-link {
+      background: url(@/advocacy.svg) no-repeat 33px center;
+    }
+
+    &:hover {
+      background: var(--n-50);
+    }
+
+    &.current-menu-item {
+      //   border-bottom: 2px solid var(--primary-blue);
+      transition: all 0.2s ease-in-out;
+      box-shadow: inset 0 -2px 0 0 var(--primary-blue);
+
+      .menu-link {
+        text-shadow: 1px 0 0 currentColor;
+      }
+
+      &.menu-item-141 .menu-link {
+        background: url(@/knowledge-blue.svg) no-repeat 33px center;
+      }
+
+      &.menu-item-142 .menu-link {
+        background: url(@/partner-blue.svg) no-repeat 33px center;
+      }
+
+      &.menu-item-145 .menu-link {
+        background: url(@/coalition-blue.svg) no-repeat 33px center;
+      }
+
+      &.menu-item-144 .menu-link {
+        background: url(@/advocacy-blue.svg) no-repeat 33px center;
+      }
+
+      // .icon svg {
+      //   rect,
+      //   circle {
+      //     fill: var(--primary-blue);
+      //   }
+      //   path {
+      //     fill: var(--primary-white);
+      //   }
+      // }
+    }
+  }
+}
+
+.mask svg {
+  width: 100%;
+  height: 100%;
+}
+
+.seap-card-overlay {
+  background: linear-gradient(
+    82deg,
+    rgba(50, 50, 50, 0) 1.63%,
+    rgba(50, 50, 50, 0.53) 104.75%,
+    #323232 189.58%,
+    #323232 189.6%
+  );
+  background-blend-mode: hard-light, normal;
+}
+
+.postid-141.single-work {
+  .custom-card {
+    background: var(--n-50);
+
+    &-wrapper {
+      @apply py-[60px] sm:py-20 max-w-[1028px];
+    }
+  }
+}
+
+.services-overlay {
+  background: rgba(50, 50, 50, 0.6);
+  mix-blend-mode: multiply;
+}
+
+.service-card:not(:first-child) {
+  @apply pt-8  sm:pt-10;
+}
+
+.postid-142 {
+  .incubation-services + .partnership-image-block .single-work-wrapper {
+    // margin-top: 40px;
+    padding-bottom: 0px;
+
+    .single-work-image {
+      border-bottom: 1px solid var(--grey93);
+      padding-bottom: 40px;
+    }
+  }
+
+  .work-section {
+    @apply pb-24;
+  }
+}
+
+.coalition-group-card {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.postid-145 .work-section {
+  @apply mb-[60px] sm:mb-24;
+
+  .coalition-image-section + .work-block + .work-block {
+    .single-work-wrapper {
+      padding-bottom: 0px;
+
+      h3 {
+        padding-top: 0px;
+      }
+    }
+  }
+}
+
+// advocacy-work
+
+.postid-144 {
+  .custom-card-wrapper {
+    @apply py-[60px] sm:py-20 md:py-[136px];
+
+    .card-advocacy {
+      border-top: none;
+    }
+  }
+}
+
+.advocacy-card-overlay {
+  background: linear-gradient(
+    82deg,
+    rgba(50, 50, 50, 0) 1.63%,
+    rgba(50, 50, 50, 0.53) 104.75%,
+    #323232 189.58%,
+    #323232 189.6%
+  );
+  background-blend-mode: hard-light, normal;
+}
+
+// Search result
+
+.search-card-images {
+  @apply absolute inset-0 h-full w-full object-cover;
+}
+
+.result:not(:first-child) {
+  @apply pt-8;
+}
+
+// .active{
+//   background-color: red;
+// }

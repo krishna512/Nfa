@@ -1,0 +1,26 @@
+{
+    "name": "acf/content-with-image-repeater",
+    "title": "Content With Image Repeater Blocks",
+    "description": "Custom Content With Image Repeater Blocks",
+    "attributes": {
+      "align": {
+        "type": "string",
+        "default": "full"
+      }
+    },
+    "style": "block",
+    "script": "block",
+    "category": "home",
+    "icon": "",
+    "keywords": [
+      "content-with-image-repeater",
+      "content",
+      "with",
+      "image",
+      "repeater"
+    ],
+    "acf": {
+      "mode": "preview",
+      "renderTemplate": "block.php"
+    }
+  }

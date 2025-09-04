@@ -1,0 +1,85 @@
+.our-goals {
+  &.wp-block-group {
+    @apply my-0 container py-[60px]  sm:py-20 md:py-24;
+  }
+}
+
+.our-goal__card--items {
+  // .goal-wave {
+  //   transition: 0.4s linear;
+  //   svg {
+  //     width: auto;
+  //     height: auto;
+  //     path {
+  //       opacity: 0.05;
+  //       transition: 0.4s linear;
+  //     }
+  //   }
+  // }
+
+  // &:hover {
+  //   .goal-wave svg path {
+  //     opacity: 0.8;
+  //   }
+  // }
+
+  &:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: url('@/icons/our-goals-hover.svg') no-repeat;
+    width: 100%;
+    height: 120%;
+    background-size: cover;
+    top: 89%;
+    transform: translateY(0);
+    transition: 0.4s linear;
+    opacity: 0.05;
+  }
+
+  &:hover {
+    &:after {
+      transition: 0.4s linear;
+      opacity: 0.8;
+      transform: translateY(-89%);
+    }
+  }
+}
+
+.goals__overlay {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(358deg, #323232 10.62%, rgba(50, 50, 50, 0.69) 43.3%, rgba(50, 50, 50, 0) 85.04%);
+}
+
+// Blogs
+
+.relevant-dates {
+  li {
+    list-style-type: none;
+
+    a {
+      @apply inline-flex py-3 px-[10px] bg-n-50 text-sm font-medium cursor-pointer hover:bg-primary-blue hover:text-white transition-all duration-[.4s] ease-in-out;
+    }
+  }
+}
+
+// vacancy
+
+.vacancy-paragraph {
+  p {
+    @apply my-6;
+  }
+}
+
+.opportunity-details {
+  li {
+    list-style: inside;
+    &:not(:last-child) {
+      margin-bottom: 4px;
+    }
+  }
+}

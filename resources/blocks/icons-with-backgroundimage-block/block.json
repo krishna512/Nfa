@@ -1,0 +1,26 @@
+{
+    "name": "acf/icons-with-backgroundimage-block",
+    "title": "Icons With Content Background Image Blocks",
+    "description": "Custom Icons With Content Background Image Blocks",
+    "attributes": {
+      "align": {
+        "type": "string",
+        "default": "full"
+      }
+    },
+    "style": "block",
+    "script": "block",
+    "category": "home",
+    "icon": "",
+    "keywords": [
+      "icons-with-backgroundimage-block",
+      "icons",
+      "with",
+      "backgroundimage",
+      "block"
+    ],
+    "acf": {
+      "mode": "preview",
+      "renderTemplate": "block.php"
+    }
+  }

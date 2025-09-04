@@ -1,0 +1,43 @@
+html,
+body {
+  font: normal 16px/1.5 Inter;
+  color: var(--primary-black);
+  background-color: theme('colors.white');
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  // scroll-behavior: smooth;
+}
+
+h1 {
+  @apply text-small-heading leading-[1.1]  sm:text-heading-2 md:text-heading-1 sm:leading-[1.2];
+}
+
+h2 {
+  @apply text-small-heading-2 leading-[1.3] sm:leading-normal  sm:text-heading-3 md:text-heading-2 md:leading-[1.2];
+}
+
+h3 {
+  @apply text-small-heading-2 sm:text-heading-3 sm:leading-normal;
+}
+
+h4 {
+  @apply text-heading-4 leading-normal;
+}
+
+h5 {
+  @apply text-heading-5 leading-normal;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  @apply font-bigShouldersDisplay font-bold;
+}
+svg {
+  height: 1em;
+}
+
+.team-paragraph p:not(:last-child) {
+  @apply mb-6;
+}

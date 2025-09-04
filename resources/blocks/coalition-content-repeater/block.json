@@ -1,0 +1,26 @@
+{
+    "name": "acf/coalition-content-repeater",
+    "title": "Coalition Content Repeater Blocks",
+    "description": "Coalition Content Repeater Blocks",
+    "attributes": {
+      "align": {
+        "type": "string",
+        "default": "full"
+      }
+    },
+    "style": "block",
+    "script": "block",
+    "category": "home",
+    "icon": "",
+    "keywords": [
+      "coalition-content-repeater",
+      "coalition",
+      "content",
+      "repeater"
+      
+    ],
+    "acf": {
+      "mode": "preview",
+      "renderTemplate": "block.php"
+    }
+  }

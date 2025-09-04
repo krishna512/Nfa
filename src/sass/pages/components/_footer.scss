@@ -1,0 +1,51 @@
+.footer {
+  &__link--title {
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+
+  &__nav--items {
+    .menu-item a {
+      &:hover {
+        border-bottom: 1px solid var(--text-grey);
+      }
+    }
+  }
+}
+
+.footer__bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.37);
+
+  &--item {
+    a {
+      &:hover {
+        border-bottom: 1px solid var(--text-grey);
+      }
+    }
+    &:not(:first-child) {
+      padding-left: 12px;
+      border-left: 1.5px solid var(--text-grey);
+    }
+  }
+}
+
+.footer__social-icons {
+  background: white;
+  color: var(--primary-black);
+  border-radius: 2px;
+
+  &.facebook {
+    padding-top: 5px;
+    padding-left: 4px;
+
+    a {
+      position: relative;
+      font-size: 20px;
+      right: -1px;
+      bottom: -1px;
+    }
+  }
+  &:not(.facebook) {
+    padding: 3px;
+  }
+}

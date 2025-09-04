@@ -1,0 +1,44 @@
+:root {
+  // Primary Colors
+
+  --primary-black: theme(colors.primary-black);
+  --primary-white: theme(colors.white);
+  --primary-yellow: theme(colors.primary-yellow);
+  --primary-blue: theme(colors.primary-blue);
+  --text-grey: theme(colors.text-grey);
+  --grey93: theme(colors.grey93);
+
+  //  yellow
+  --y-50: theme(colors.y-50);
+  --y-100: theme(colors.y-100);
+  --y-200: theme(colors.y-200);
+  --y-300: theme(colors.y-300);
+  --y-400: theme(colors.y-400);
+  --y-600: theme(colors.y-600);
+  --y-700: theme(colors.y-700);
+  --y-800: theme(colors.y-800);
+  --y-900: theme(colors.y-900);
+
+  // Blue
+  --b-50: theme(colors.b-50);
+  --b-100: theme(colors.b-100);
+  --b-200: theme(colors.b-200);
+  --b-300: theme(colors.b-300);
+  --b-400: theme(colors.b-400);
+  --b-600: theme(colors.b-600);
+  --b-700: theme(colors.b-700);
+  --b-800: theme(colors.b-800);
+  --b-900: theme(colors.b-900);
+
+  // Neutrals
+  --n-50: theme(colors.n-50);
+  --n-100: theme(colors.n-100);
+  --n-200: theme(colors.n-200);
+  --n-300: theme(colors.n-300);
+  --n-400: theme(colors.n-400);
+  --n-500: theme(colors.n-500);
+  --n-600: theme(colors.n-600);
+  --n-700: theme(colors.n-700);
+  --n-800: theme(colors.n-800);
+  --n-900: theme(colors.n-900);
+}

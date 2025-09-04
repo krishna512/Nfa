@@ -1,0 +1,23 @@
+{
+    "name": "acf/home-events",
+    "title": "Home Events",
+    "description": "Custom Home Events Blocks",
+    "attributes": {
+      "align": {
+        "type": "string",
+        "default": "full"
+      }
+    },
+    "style": "block",
+    "script": "block",
+    "category": "home",
+    "icon": "",
+    "keywords": [
+      "home-events",
+      "events"
+    ],
+    "acf": {
+      "mode": "preview",
+      "renderTemplate": "block.php"
+    }
+  }

@@ -1,0 +1,16 @@
+*.log
+
+node_modules
+
+
+# Ignore OSX files
+._.DS_Store
+.DS_Store
+.unison*
+
+# Nodejs log files
+*.log
+npm-debug.
+yarn-debug
+yarn-error
+lerna-debu

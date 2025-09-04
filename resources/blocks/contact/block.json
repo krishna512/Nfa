@@ -1,0 +1,21 @@
+{
+    "name": "acf/contact",
+    "title": "contact Us Blocks",
+    "description": "Custom contact Us Blocks",
+    "attributes": {
+      "align": {
+        "type": "string",
+        "default": "full"
+      }
+    },
+    "style": "block",
+    "script": "block",
+    "category": "home",
+    "icon": "",
+    "keywords": [
+      "contact"  ],
+    "acf": {
+      "mode": "preview",
+      "renderTemplate": "block.php"
+    }
+  }

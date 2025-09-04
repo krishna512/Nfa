@@ -1,0 +1,50 @@
+{
+  "name": "nfa",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "vite serve",
+    "build": "vite build",
+    "prepare": "cd ../../../ && husky install wp-content/themes/nfa/.husky",
+    "precommit": "lint-staged",
+    "format": "prettier --write ./src/sass/**/*.{css,scss} && git add ."
+  },
+  "lint-staged": {
+    "*": "yarn format",
+    "src/js/**/*.js": [
+      "eslint --fix"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "slick-carousel-latest": "^1.9.0",
+    "tailwindcss": "^3.3.5",
+    "vite": "^5.0.2",
+    "vite-plugin-live-reload": "^3.0.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^6.13.2",
+    "autoprefixer": "^10.4.16",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.32.0 || ^8.54.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "husky": "^8.0.3",
+    "import-glob-loader": "^1.1.0",
+    "laravel-mix": "^6.0.49",
+    "lint-staged": "^15.1.0",
+    "only-allow": "^1.2.1",
+    "postcss": "^8.4.31",
+    "postcss-nested": "^6.0.1",
+    "prettier": "^3.1.0",
+    "prettier-plugin-tailwindcss": "^0.5.7",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.69.5",
+    "sass-loader": "^13.3.2",
+    "slick-carousel": "^1.8.1",
+    "stylelint": "^13.13.1"
+  }
+}

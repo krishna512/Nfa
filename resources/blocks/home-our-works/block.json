@@ -1,0 +1,26 @@
+{
+    "name": "acf/home-our-works",
+    "title": "Home Our Work",
+    "description": "Custom Home Our Work Blocks",
+    "attributes": {
+      "align": {
+        "type": "string",
+        "default": "full"
+      }
+    },
+    "style": "block",
+    "script": "block",
+    "category": "home",
+    "icon": "",
+    "keywords": [
+      "home-our-works",
+      "home",
+      "our",
+      "works"
+      
+    ],
+    "acf": {
+      "mode": "preview",
+      "renderTemplate": "block.php"
+    }
+  }
